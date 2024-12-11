@@ -1,0 +1,112 @@
+/* .subscribe-form {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(216, 249, 188);
+  }
+  
+  .subscribe-form input {
+    padding: 50px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+  }
+  
+  .subscribe-form button {
+    margin : 22px 3px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff9800;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  .subscribe-form button:hover {
+    background-color: #e68900;
+  } */
+
+/* Container for the subscribe section */
+.subscribe-container {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #d8f9bc; /* Light green background */
+  font-family: 'Arial', sans-serif;
+}
+
+/* Heading */
+.subscribe-heading {
+  font-size: 28px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+/* Description */
+.subscribe-description {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 30px;
+}
+
+/* Form styling */
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-group {
+  display: flex;
+  gap: 10px;
+}
+
+/* Input field */
+.subscribe-form input {
+  padding: 12px 20px;
+  font-size: 16px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styling */
+.subscribe-form button {
+  padding: 12px 25px;
+  font-size: 16px;
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+.subscribe-form button:hover {
+  background-color: #e6554e;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .subscribe-form {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .subscribe-form input {
+    width: 100%;
+  }
+
+  .subscribe-form button {
+    width: 100%;
+  }
+}
+
+  

@@ -1,0 +1,26 @@
+.home {
+    text-align: center;
+    padding: 0px 35px 30px 35px;
+    background-color: #f5f5f5;
+  }
+  
+  .hero h2{
+    text-align: left;
+    margin:15px 0px 0px 45px;
+    text-decoration: underline;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .hero p {
+    text-align: left;
+    margin-left: 45px;
+    font-size: 0.1rem;
+    color: black;
+  }
+
+  
+  .NewsLetter {
+    text-align: center;
+    padding: 40px
+  }

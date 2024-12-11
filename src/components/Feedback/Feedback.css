@@ -1,0 +1,100 @@
+.feedback-container {
+    background-color: #fff; /* Ensure a visible background */
+    padding: 50px 20px;
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    max-width: 1200px; /* Set a limit to the width */
+    margin: 0 auto; /* Center the container */
+    border: 2px solid red; /* Debug: Add a border to verify visibility */
+    position: relative; /* Ensure it's positioned correctly */
+    z-index: 1; /* Ensure it appears on top of other elements */
+  }
+  
+  
+  .feedback-slider {
+    max-width: 900px;
+    margin: 0 auto; /* Center the slider */
+    overflow: visible !important; /* Make sure content is not hidden */
+    position: relative; /* Ensure proper positioning */
+  }
+   
+  
+  .feedback-slide {
+    display: flex !important; /* Ensure proper flex layout for Slick */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .feedback-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #a57b5e; /* Background color matching your inspo */
+    border-radius: 25px;
+    padding: 20px 30px;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    color: white;
+  }
+  
+  .feedback-content {
+    flex: 2;
+    text-align: left;
+    padding-right: 20px; /* Add spacing between content and image */
+  }
+  
+  .feedback-quote {
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 15px;
+  }
+  
+  .feedback-author h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .feedback-author p {
+    font-size: 14px;
+    margin: 5px 0 0;
+  }
+  
+  .feedback-image {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .feedback-image img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid white;
+  }
+  
+  .slick-dots {
+    bottom: -30px;
+  }
+  
+  .slick-dots li button:before {
+    font-size: 12px;
+    color: #444;
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: #000;
+  }
+  
+  @media (max-width: 768px) {
+    .feedback-card {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .feedback-image {
+      margin-top: 15px;
+    }
+  }
+  
+  
